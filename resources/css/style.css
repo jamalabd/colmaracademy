@@ -28,10 +28,21 @@ h1 {
   color: #404040;
 }
 
+h3 {
+  color: #404040;
+}
+
 h5 {
   color: #4d4d4d;
 }
 
+p {
+  color: #4d4d4d;
+}
+
+a {
+  color: #00aaff
+}
 
 ul {
   display: flex;
@@ -113,13 +124,12 @@ div.learn {
 
 section.second {
   display: flex;
+  
 }
 
  /*Second Section Left*/
 
- div.left {
-   padding: 2rem 0rem 2rem 1.5rem;
- }
+
 
  .second img {
   width: 60%;
@@ -142,13 +152,38 @@ section.second {
 
  div.right {
    width: 40%;
-
+   border-left: 1px solid lightgrey;
  }
 .right img {
   height: auto;
   width: 35%;
+  margin: 1rem;
 }
 
 div.aa {
+ display: flex;
+ height: 15%;
+}
 
+div.wrap {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap p {
+  margin: 8px 0;
+}
+
+div.top {
+  border-bottom: 2px solid lightgrey;
+}
+
+div.bottom {
+  background-color: lightgrey;
+}
+
+.right a {
+  text-decoration: none;
 }
