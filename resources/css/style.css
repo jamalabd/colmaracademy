@@ -5,4 +5,150 @@
 
 html {
   font-size: 16px;
+  font-family: helvetica, sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+}
+
+
+h1 {
+  color: #404040;
+}
+
+h5 {
+  color: #4d4d4d;
+}
+
+
+ul {
+  display: flex;
+}
+
+ul li {
+  margin-left: 1rem;
+}
+
+
+/*Header*/
+
+
+
+.header.content2 {
+  margin-right: 1.5rem;
+}
+
+.header.content1 {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  height: 2rem;
+}
+
+span.color1 {
+  font-weight: bold;
+}
+
+span.color2 {
+  font-weight: normal;
+  color: grey;
+}
+
+/*first section*/
+
+
+section.first {
+  background-color: lightgrey;
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+
+ .first img {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+div.learn {
+ display: flex;
+ flex-direction: column;
+ width: 225px;
+}
+
+.learn h1 {
+  margin-bottom: 1.5rem;
+}
+
+.learn h5 {
+  margin-bottom: 1.5rem;
+}
+
+
+ div.starthere {
+   display: flex;
+   justify-content: center;
+   width: 220px;
+   background-color: #404040;
+ }
+
+ .starthere span {
+   padding: 8px 0;
+   color: white;
+ }
+
+ /*Second Section*/
+
+section.second {
+  display: flex;
+}
+
+ /*Second Section Left*/
+
+ div.left {
+   padding: 2rem 0rem 2rem 1.5rem;
+ }
+
+ .second img {
+  width: 60%;
+ }
+
+ .left h1 {
+   margin-top: 2rem;
+ }
+
+ .left p {
+   margin-top: 1.5rem;
+   width: 500px;
+ }
+ .left span {
+   display: block;
+   margin-top: 4rem;
+ }
+
+ /*Second Section right*/
+
+ div.right {
+   width: 40%;
+
+ }
+.right img {
+  height: auto;
+  width: 35%;
+}
+
+div.aa {
+
 }
