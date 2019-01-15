@@ -32,6 +32,10 @@ h3 {
   color: #404040;
 }
 
+h4 {
+  color: #404040;
+}
+
 h5 {
   color: #4d4d4d;
 }
@@ -53,9 +57,8 @@ ul li {
 }
 
 
+
 /*Header*/
-
-
 
 .header.content2 {
   margin-right: 1.5rem;
@@ -124,28 +127,34 @@ div.learn {
 
 section.second {
   display: flex;
-  
+  height: 760px;
 }
 
  /*Second Section Left*/
 
-
+ div.left {
+   margin: 2rem 1.5rem;
+ }
 
  .second img {
-  width: 60%;
+  width: 93%;
  }
 
  .left h1 {
    margin-top: 2rem;
+   width: 500px;
+
  }
 
  .left p {
    margin-top: 1.5rem;
    width: 500px;
+
  }
  .left span {
    display: block;
    margin-top: 4rem;
+   width: 500px;
  }
 
  /*Second Section right*/
@@ -187,3 +196,57 @@ div.bottom {
 .right a {
   text-decoration: none;
 }
+
+/*Third Section*/
+
+Section.third {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  align-items: center;
+}
+
+.third h1 {
+  margin-top: 2rem;
+}
+
+
+div.courses{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 800px;
+  margin: 2rem 4.5rem;
+}
+
+div.box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 15rem;
+  height: 16rem;
+}
+
+div.box.b {
+  margin: 0rem 2rem 2rem 2rem;
+}
+
+div.box.e {
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+
+div.words {
+  margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.box span {
+  margin: 8px 0;
+}
+
+section img {
+  height: auto;
+  width: 100%;
+}
+
+/*Fourth Section*/
