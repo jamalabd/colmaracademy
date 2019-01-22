@@ -13,16 +13,6 @@ ul {
   list-style-type: none;
 }
 
-header {
-  display: flex;
-  width: 100%;
-  height: 4rem;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  position: fixed;
-}
-
 
 h1 {
   color: #404040;
@@ -42,6 +32,7 @@ h5 {
 
 p {
   color: #4d4d4d;
+  font-size: 14px;
 }
 
 a {
@@ -55,10 +46,18 @@ ul {
 ul li {
   margin-left: 1rem;
 }
+  /*Header*/
 
+header {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+}
 
-
-/*Header*/
 
 .header.content2 {
   margin-right: 1.5rem;
@@ -79,8 +78,7 @@ span.color2 {
   font-weight: normal;
   color: grey;
 }
-
-/*first section*/
+  /*first section*/
 
 
 section.first {
@@ -92,7 +90,8 @@ section.first {
 
 
  .first img {
-  width: 60%;
+   width: 600px;
+   height: 500px;
   margin: 2rem 1.5rem;
 }
 
@@ -110,7 +109,6 @@ div.learn {
   margin-bottom: 1.5rem;
 }
 
-
  div.starthere {
    display: flex;
    justify-content: center;
@@ -122,22 +120,21 @@ div.learn {
    padding: 8px 0;
    color: white;
  }
-
- /*Second Section*/
+  /*Second Section*/
 
 section.second {
   display: flex;
-  height: 760px;
+  height: 590px;
 }
-
- /*Second Section Left*/
+  /*Second Section Left*/
 
  div.left {
    margin: 2rem 1.5rem;
  }
 
  .second img {
-  width: 93%;
+  width: 600px;
+  height: 300px;
  }
 
  .left h1 {
@@ -156,8 +153,7 @@ section.second {
    margin-top: 4rem;
    width: 500px;
  }
-
- /*Second Section right*/
+  /*Second Section right*/
 
  div.right {
    width: 40%;
@@ -171,7 +167,7 @@ section.second {
 
 div.aa {
  display: flex;
- height: 15%;
+ height: 20%;
 }
 
 div.wrap {
@@ -185,7 +181,7 @@ div.wrap {
   margin: 8px 0;
 }
 
-div.top {
+div.aa {
   border-bottom: 2px solid lightgrey;
 }
 
@@ -196,8 +192,7 @@ div.bottom {
 .right a {
   text-decoration: none;
 }
-
-/*Third Section*/
+  /*Third Section*/
 
 Section.third {
   display: flex;
@@ -209,7 +204,6 @@ Section.third {
 .third h1 {
   margin-top: 2rem;
 }
-
 
 div.courses{
   display: flex;
@@ -224,7 +218,7 @@ div.box {
   flex-direction: column;
   background-color: white;
   width: 15rem;
-  height: 16rem;
+  height: 17rem;
 }
 
 div.box.b {
@@ -235,18 +229,199 @@ div.box.e {
   margin: 0rem 2rem 0rem 2rem;
 }
 
-
 div.words {
   margin: 1rem 1rem 1.5rem 1rem;
 }
 
 .box span {
+  display: block;
   margin: 8px 0;
 }
 
 section img {
-  height: auto;
+  height: 46%;
   width: 100%;
 }
+  /*Fourth Section*/
 
-/*Fourth Section*/
+.float h1 {
+  margin: 2rem 0rem;
+  text-align: center;
+}
+
+section.fourth {
+  display: flex;
+}
+
+div.fourth {
+  margin: 2rem 1.5rem;
+}
+
+.fourth img {
+ width: 60%;
+}
+
+div.wl {
+  display: block;
+  margin: 0 24px;
+  width:500px;
+}
+
+.fourth video {
+  display: inline-block;
+  width: 600px;
+  margin-left: 24px;
+  flex-shrink: 0rem;
+}
+  /*Fourth Seaction Left*/
+
+.l {
+  display: block;
+  margin-right: 24px;
+}
+
+.l h3 {
+  margin-top: 2rem;
+
+}
+
+.l p {
+  margin-top: 1.5rem;
+  width: 500px;
+
+}
+  /*Fourth Seaction right*/
+
+div.r {
+  width: 40%;
+}
+.r img {
+ height: auto;
+ width: 35%;
+ margin: 1rem;
+}
+
+div.bb {
+display: flex;
+height: 30%;
+}
+
+div.cc {
+  background-color: lightgrey;
+}
+
+div.w {
+ width: 65%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.w p {
+ margin: 8px 0;
+}
+  /*Footer*/
+
+footer {
+  display: flex;
+  height: 6rem;
+  border-top: 1px solid lightgrey;
+  justify-content: space-between;
+}
+div.foot {
+  margin: 1rem 1.5rem;
+  color:grey;
+}
+
+footer ul {
+  color: grey;
+  margin: 1rem 1.5rem;
+}
+  /*Media Quary*/
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+/*Header Mobile*/
+  div.header.content1 {
+    display: none;
+  }
+
+  div.header.content2 {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+  }
+  /*First Seaction Mobile*/
+  section.first {
+    background-color: white;
+    padding-top: 4rem;
+    display: block;
+    align-items: center;
+  }
+
+   .first img {
+     width: 100%;
+    margin: 0rem 0rem;
+  }
+
+  /*Second Seaction Mobile*/
+   div.left {
+     display: none;
+   }
+
+     div.right {
+     width: 100%;
+     border-left:
+   }
+
+   /*Third Seaction Mobile*/
+
+    section div.courses {
+      display: none;
+    }
+
+    Section.third {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      align-items: center;
+    }
+
+    .third h1 {
+      margin-top: 2rem;
+    }
+
+    div.courses{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 800px;
+      margin: 2rem 4.5rem;
+    }
+
+    div.box {
+      display: flex;
+      flex-direction: column;
+      background-color: grey;
+      width: 15rem;
+      height: 3.5rem;
+    }
+
+    div.box.b {
+      margin: 0rem 0rem 0rem 0rem;
+    }
+
+    div.box.e {
+      margin: 0rem 0rem 0rem 0rem;
+    }
+
+
+
+}
