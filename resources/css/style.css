@@ -394,8 +394,12 @@ footer ul {
       align-items: center;
     }
 
-    .third h1 {
-      margin-top: 2rem;
+    h1.h {
+      margin: 2rem 0 1rem 0;
+    }
+
+    .coursesmobile h3 {
+      margin: 1rem 1rem 1.5rem 1rem;
     }
 
     div.courses{
@@ -408,19 +412,26 @@ footer ul {
 
     div.box {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       background-color: grey;
       width: 15rem;
       height: 3.5rem;
+      margin-top: 8px;
     }
 
+    div.box.a {
+      margin: 0px 0rem 0rem 0rem;
+    }
+
+
     div.box.b {
-      margin: 0rem 0rem 0rem 0rem;
+      margin: 8px 0rem 0rem 0rem;
     }
 
     div.box.e {
-      margin: 0rem 0rem 0rem 0rem;
+      margin: 8px 0rem 0rem 0rem;
     }
+
 
 
 
