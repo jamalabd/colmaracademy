@@ -372,13 +372,22 @@ footer ul {
   }
 
   /*Second Seaction Mobile*/
+  section.second {
+    height: px;
+  }
+
+
    div.left {
      display: none;
    }
 
      div.right {
-     width: 100%;
-     border-left:
+     width: 360px;
+     border-left: 0;
+   }
+
+   div.aa {
+     height: 195px;
    }
 
    /*Third Seaction Mobile*/
@@ -413,7 +422,7 @@ footer ul {
     div.box {
       display: flex;
       justify-content: center;
-      background-color: grey;
+      background-color: lightgrey;
       width: 15rem;
       height: 3.5rem;
       margin-top: 8px;
@@ -431,6 +440,38 @@ footer ul {
     div.box.e {
       margin: 8px 0rem 0rem 0rem;
     }
+
+    /*Fourth Section*/
+
+    div.wl {
+      display: none;
+    }
+
+    div.r {
+      display: none;
+    }
+
+    .fourth video {
+      display: block;
+      width: 360px;
+      margin: 0 0 1.5rem 0;
+      flex-shrink: 0rem;
+    }
+   /*Footer*/
+
+   footer {
+     display: flex;
+     height: 4rem;
+     border-top:0 ;
+   }
+   div.foot {
+     margin: 1rem 1rem;
+     color:grey;
+   }
+
+   footer ul {
+     display: none;
+   }
 
 
 
